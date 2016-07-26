@@ -3,6 +3,7 @@
     "description": "alert rare pokemon near specified spot",
     "repository": "https://github.com/mazamachi/RarepokemonAlertBot",
     "env": {
+        "PLACE_NAME": "",
         "LATITUDE": 0.0,
         "LONGITUDE": 0.0,
         "MAX_DISTANCE": 0.0,

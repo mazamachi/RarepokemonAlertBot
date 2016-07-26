@@ -88,7 +88,7 @@ class PokemonTweet
   def update
     pokemons = PokemonsFetcher.new.fetch.uniq{|p| p.name}
     return if pokemons.empty?
-    sentence = "@#{@screen_name} 近くにいるレアポケモンは\n#{pokemons[0...5].map(&:to_string).join("\n")}\nだよ！"
+    sentence = "@#{@screen_name} #{ENV['PLACE_NAME']}近くにいるレアポケモンは\n#{pokemons[0...5].map(&:to_string).join("\n")}\nだよ！"
     @cli.update(sentence)
   end
 end
