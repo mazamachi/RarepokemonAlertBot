@@ -1,0 +1,15 @@
+{
+    "name": "rare pokemon alert bot",
+    "description": "alert rare pokemon near specified spot",
+    "repository": "https://github.com/mazamachi/",
+    "env": {
+        "LATITUDE": ,
+        "LONGITUDE": ,
+        "MAX_DISTANCE": ,
+        "MAX_RARITY": ,
+        "TWITTER_CONSUMER_KEY": "",
+        "TWITTER_CONSUMER_SECRET": "",
+        "TWITTER_ACCESS_TOKEN": "",
+        "TWITTER_ACCESS_TOKEN_SECRET": ""
+    }
+}
